@@ -1,0 +1,20 @@
+{
+    "name": "osit/webaseo",
+    "description": "SEO report for your website.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Osit\\Webaseo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dominic Moeketsi",
+            "email": "developer@osit.co.za"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^10.35",
+        "guzzlehttp/guzzle": "^7.8"
+    }
+}
